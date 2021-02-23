@@ -28,7 +28,7 @@ We decided to create an event for :coffee: Svanfeldts Coffee :coffee: who introd
 
 
 ## Creators
-- [Jakob Gustafsson](https://github.com/mreka91) (WU)
+- [Reka Madarasz](https://github.com/mreka91) (WU)
 - [Sarah Malm](https://www.sarahmalm.com/) (IP)
 
 
