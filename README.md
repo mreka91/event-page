@@ -36,4 +36,4 @@ We decided to create an event for :coffee: Svanfeldts Coffee :coffee: who introd
 
 ## License
 
-This project is licensed under the MIT License - see the **[LICENSE](https://github.com/gusjak/event-page/blob/main/LICENSE)** here.
+This project is licensed under the MIT License - see the **[LICENSE](https://github.com/mreka91/event-page/blob/main/LICENSE)** here.
