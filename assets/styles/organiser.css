@@ -1,0 +1,14 @@
+.organiser {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 200px;
+}
+
+.organiser h3 {
+  color: var(--beige);
+  font-family: var(--font-spartan-bold);
+  font-size: 36px;
+  text-transform: uppercase;
+}

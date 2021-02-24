@@ -1,0 +1,19 @@
+.address {
+  margin-top: 300px;
+  background-color: var(--brown);
+  height: 331px;
+  padding: 50px;
+}
+.address h3 {
+  font-family: var(--font-poppins-bold);
+  font-size: 52px;
+  color: white;
+  text-transform: uppercase;
+  line-height: 78px;
+}
+.address p {
+  color: white;
+  font-family: var(--font-poppins-medium);
+  font-size: 24px;
+  line-height: 36px;
+}
