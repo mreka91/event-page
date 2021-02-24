@@ -1,0 +1,62 @@
+@font-face {
+  font-family: "Satisfy";
+  src: local("Satisfy"),
+    url("/assets/fonts/Satisfy-Regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "PoppinsMedium";
+  src: local("PoppinsMedium"),
+    url("/assets/fonts/Poppins-Medium.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "PoppinsRegular";
+  src: local("PoppinsRegular"),
+    url("/assets/fonts/Poppins-Regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "PoppinsSemiBold";
+  src: local("PoppinsSemiBold"),
+    url("/assets/fonts/Poppins-SemiBold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "PoppinsBold";
+  src: local("PoppinsBold"),
+    url("/assets/fonts/Poppins-Bold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "SpartanBold";
+  src: local("SpartanBold"),
+    url("/assets/fonts/Spartan-Bold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "SpartanMediumn";
+  src: local("SpartanMediumn"),
+    url("/assets/fonts/Spartan-Medium.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "SpartanSemiBold";
+  src: local("SpartanSemiBold"),
+    url("/assets/fonts/Spartan-SemiBold.woff2") format("woff2");
+}
+
+:root {
+  --beige: #ddd3ca;
+  --adark-beige: #8d7b6f;
+  --brown: #605454;
+  --yellow: #f7e0b0;
+  --font-satisfy: "Satisfy";
+  --font-poppins-medium: "PoppinsMedium";
+  --font-poppins-regular: "PoppinsRegular";
+  --font-poppins-semi: "PoppinsSemiBold";
+  --font-poppins-bold: "PoppinsBold";
+  --font-spartan-bold: "SpartanBold";
+  --font-spartan-medium: "SpartanMediumn";
+  --font-spartan-semi: "SpartanSemiBold";
+}
