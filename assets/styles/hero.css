@@ -1,37 +1,29 @@
+/*HERO*/
 .hero {
   background-color: var(--beige);
   display: flex;
-  align-items: center;
-  margin-bottom: 137px;
-  border-top: 1px solid var(--brown);
-  border-bottom: 1px solid var(--brown);
-  width: 100%;
+  flex-wrap: wrap;
+  overflow: hidden;
+  position: relative;
 }
-
-.right {
-  margin-right: 250px;
+.hero img {
+  max-width: 100%;
+  padding: 5px;
 }
-
-.right h1 {
+.title {
+  padding: 50px;
+}
+.title h1 {
   text-transform: uppercase;
   color: white;
   font-family: var(--font-poppins-semi);
-  font-size: 72px;
+  font-size: 52px;
   line-height: 84.6px;
 }
 
-.right h4 {
+.title h4 {
   color: var(--brown);
   font-family: var(--font-spartan-semi);
   font-size: 24px;
   line-height: 30.6px;
-}
-
-.left img {
-  /*   width: 677px;
-  height: 788px; */
-  width: 70%;
-  height: 100%;
-  margin-left: 5px;
-  margin-top: 5px;
 }

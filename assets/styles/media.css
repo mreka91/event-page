@@ -1,0 +1,31 @@
+@media screen and (min-width: 900px) {
+  .hero {
+    flex-wrap: nowrap;
+    flex-direction: row-reverse;
+  }
+  .title {
+    align-self: center;
+  }
+  .title h1 {
+    font-size: 72px;
+  }
+
+  .hero-img {
+    width: 50%;
+  }
+
+  .ws-banner h2 {
+    font-size: 98px;
+    line-height: 125px;
+  }
+
+  .ws-banner h3 {
+    font-size: 64px;
+    line-height: 96px;
+  }
+
+  .ws-banner p {
+    font-family: var(--font-poppins-semi);
+    font-size: 28px;
+  }
+}

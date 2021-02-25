@@ -1,108 +1,27 @@
-.ws-title {
-  height: 331px;
+/*WORKSHOP*/
+
+.ws-banner {
   background-color: var(--yellow);
   color: white;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  text-align: center;
+  padding: 25px;
+  margin-top: 150px;
 }
 
-.ws-title h2 {
+.ws-banner h2 {
   font-family: var(--font-satisfy);
-  font-size: 98px;
-  line-height: 125px;
+  font-size: 54px;
+  font-weight: 400;
 }
-.ws-title h3 {
+
+.ws-banner h3 {
   font-family: var(--font-poppins-bold);
-  font-size: 64px;
-  line-height: 96px;
-}
-
-.ws-text {
-  display: flex;
-}
-.ws-text h4 {
-  font-family: var(--font-spartan-semi);
-  color: var(--brown);
-  font-size: 44px;
-}
-.ws-text h4 span {
-  color: var(--yellow);
-  font-family: var(--font-spartan-bold);
-  font-size: 44px;
-}
-
-.bold {
-  font-family: var(--font-spartan-bold);
-  font-size: 18px;
-  margin-top: 62px;
-  margin-bottom: 62px;
-  text-align: justify;
-}
-.medium {
-  font-family: var(--font-spartan-medium);
-  font-size: 18px;
-  margin-bottom: 74px;
-  text-align: justify;
-}
-
-.ws-details {
-  width: 50%;
-  margin-left: 131px;
-  margin-top: 154px;
-}
-
-/* .ws-details img {
-    width: 100%;
-  } */
-
-.left-img {
-  max-width: 559px;
-}
-
-.right-img {
-  position: absolute;
-  left: 650px;
-  top: 2200px;
-  z-index: -1;
-  max-width: 644px;
-}
-
-.rsvp {
-  width: 174px;
-  height: 174px;
-  border-radius: 50%;
-  background-color: var(--beige);
-  margin-left: 100px;
-  margin-top: 25px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  font-size: 36px;
   text-transform: uppercase;
 }
 
-.rsvp h2 {
-  font-family: var(--font-poppins-medium);
-  color: var(--brown);
-  font-size: 36;
-}
-.date {
-  width: 249px;
-  height: 249px;
-  border-radius: 50%;
-  background-color: var(--brown);
-  margin-top: -300px;
-  margin-left: 300px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-
-.date h2 {
-  font-family: var(--font-poppins-regular);
-  color: var(--beige);
-  font-size: 36;
-  font-weight: 400;
+.ws-banner p {
+  font-family: var(--font-poppins-semi);
+  font-size: 22px;
+  text-transform: uppercase;
 }

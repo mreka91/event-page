@@ -4,28 +4,26 @@
   margin: 0;
   padding: 0;
 }
-
+html,
 body {
-  width: 100%;
   height: 100%;
+  width: 100%;
 }
 
 /*LOGO*/
+
 .beans-logo {
   display: flex;
-  align-items: center;
   justify-content: center;
 }
 .beans-logo img {
-  width: 124px;
-  height: 135px;
-  margin-bottom: 50px;
-  margin-top: 15px;
+  width: 150px;
+  margin: 15px;
 }
 
 /*FOOTER*/
 
-.footer {
+/* .footer {
   height: 169px;
   background-color: var(--beige);
   display: flex;
@@ -43,4 +41,4 @@ body {
 .fa-instagram {
   font-size: 36px;
   color: var(--brown);
-}
+} */
