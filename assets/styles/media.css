@@ -49,4 +49,8 @@
     float: left;
     width: 50%;
   }
+
+  footer {
+    flex-direction: row;
+  }
 }
