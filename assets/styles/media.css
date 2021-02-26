@@ -45,4 +45,8 @@
     margin-top: 350px;
     margin-left: 350px;
   }
+  .half {
+    float: left;
+    width: 50%;
+  }
 }
