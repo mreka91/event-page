@@ -1,13 +1,17 @@
 .address {
   background-color: var(--brown);
-  padding: 55px;
+  padding: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .address h2 {
   font-family: var(--font-poppins-semi);
   font-weight: 600;
-  font-size: 48px;
-  line-height: 72px;
+  font-size: 36px;
+  line-height: 54px;
   color: white;
   text-transform: uppercase;
 }
@@ -15,7 +19,7 @@
 .address p {
   font-family: var(--font-poppins-medium);
   font-weight: 500;
-  font-size: 28px;
+  font-size: 18px;
   line-height: 27px;
   color: white;
 }
