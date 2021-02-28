@@ -20,27 +20,3 @@ body {
   width: 150px;
   margin: 15px;
 }
-
-/*FOOTER*/
-
-footer {
-  height: 169px;
-  background-color: var(--beige);
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-direction: column;
-}
-
-footer a {
-  color: var(--brown);
-  text-decoration: none;
-  font-family: var(--font-poppins-medium);
-  font-size: 18px;
-  line-height: 23px;
-}
-
-/* .fa-instagram {
-  font-size: 36px;
-  color: var(--brown);
-}  */

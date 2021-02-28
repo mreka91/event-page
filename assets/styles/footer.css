@@ -1,0 +1,46 @@
+/*FOOTER*/
+
+footer {
+  height: 169px;
+  background-color: var(--beige);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+
+footer a {
+  position: relative;
+  color: var(--brown);
+  text-decoration: none;
+  font-family: var(--font-poppins-medium);
+  font-size: 18px;
+  line-height: 23px;
+}
+
+footer a:hover {
+  color: var(--brown);
+}
+
+footer a::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: var(--brown);
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 0.3s ease-in-out 0s;
+}
+
+footer a:hover::before {
+  visibility: visible;
+  transform: scaleX(1);
+}
+
+/* .fa-instagram {
+    font-size: 36px;
+    color: var(--brown);
+  }  */
