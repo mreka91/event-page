@@ -75,7 +75,60 @@
         </p>
       </div>
       <div class="rsvp">
-        <div class="circle"><h2>RSVP</h2></div>
+        <div class="circle">
+          <button class="form-button">RSVP</button>
+        </div>
+
+        <!-- FORM -->
+        <form action="" class="form-content">
+          <div class="form-container">
+            <h2>Anmäl dig till workshop!</h2>
+
+            <label for="name">Namn: </label>
+            <input
+              type="text"
+              placeholder="Test Testersson"
+              name="name"
+              required
+            />
+
+            <label for="email">Email: </label>
+            <input
+              type="email"
+              placeholder="test@test.se"
+              name="email"
+              required
+            />
+            <p>Välj antal gäster:</p>
+            <div class="radio">
+              <input type="radio" id="one" name="guest" value="one" required />
+              <label for="one">1</label>
+              <input type="radio" id="two" name="guest" value="two" required />
+              <label for="two">2</label>
+              <input
+                type="radio"
+                id="three"
+                name="guest"
+                value="three"
+                required
+              />
+              <label for="three">3</label>
+              <input
+                type="radio"
+                id="four"
+                name="guest"
+                value="four"
+                required
+              />
+              <label for="four">4</label>
+            </div>
+
+            <div class="buttons">
+              <button type="submit" class="signup">Sign Up</button>
+              <button type="button" class="cancel">Cancel</button>
+            </div>
+          </div>
+        </form>
       </div>
     </div>
 

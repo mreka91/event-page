@@ -5,7 +5,7 @@
   color: white;
   text-align: center;
   padding: 25px;
-  margin-top: 50px;
+  margin-top: 150px;
 }
 
 .ws-banner h2 {
@@ -33,14 +33,14 @@
 .ws-details h2 {
   font-family: var(--font-spartan-semi);
   color: var(--brown);
-  font-size: 22px;
-  padding: 25px;
+  font-size: 26px;
+  padding: 25px 5px 25px 25px;
 }
 
 .ws-details h2 span {
   color: var(--yellow);
   font-family: var(--font-spartan-bold);
-  font-size: 22px;
+  font-size: 26px;
 }
 
 .ws-details-bold {
@@ -68,11 +68,13 @@
   align-items: center;
 }
 
-.circle h2 {
+.form-button {
   font-family: var(--font-poppins-medium);
   color: white;
   font-weight: 500;
   font-size: 48px;
+  background: none;
+  border: none;
 }
 
 .left-pic {
@@ -95,4 +97,82 @@
 
 .ws-pics {
   margin-top: 25px;
+}
+
+.form-content {
+  display: none;
+  font-family: var(--font-spartan-bold);
+  font-size: 18px;
+  padding: 25px;
+  line-height: 31px;
+}
+
+input[type="text"],
+input[type="email"] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: var(--yellow);
+  opacity: 0.9;
+}
+label {
+  font-family: var(--font-spartan-medium);
+}
+
+.radio {
+  padding-bottom: 25px;
+}
+
+.form-content p {
+  font-family: var(--font-spartan-medium);
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cancel {
+  font-family: var(--font-spartan-bold);
+  font-size: 18px;
+  padding: 25px;
+  opacity: 0.8;
+  background-color: var(--beige);
+  border: none;
+  color: white;
+}
+
+.signup {
+  font-family: var(--font-spartan-bold);
+  color: white;
+  font-size: 18px;
+  padding: 25px;
+  opacity: 0.9;
+  background-color: var(--yellow);
+  border: none;
+}
+
+button:hover {
+  opacity: 1;
+}
+
+input[type="radio"] {
+  position: absolute;
+  visibility: hidden;
+  display: none;
+}
+
+input[type="radio"] + label {
+  color: black;
+  display: inline-block;
+  cursor: pointer;
+  padding: 5px 20px;
+}
+
+input[type="radio"]:checked + label {
+  color: black;
+  background: var(--yellow);
+  border-radius: 50%;
 }

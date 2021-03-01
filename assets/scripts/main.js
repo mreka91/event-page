@@ -1,7 +1,10 @@
-var imageLeft = document.querySelector(".left-pic");
-var imageRight = document.querySelector(".right-pic");
+const imageLeft = document.querySelector(".left-pic");
+const imageRight = document.querySelector(".right-pic");
+const formButton = document.querySelector(".form-button");
+const cancelButton = document.querySelector(".cancel");
+const formContent = document.querySelector(".form-content");
 
-imageLeft.addEventListener("mouseover", function () {
+/* imageLeft.addEventListener("mouseover", function () {
   imageLeft.style.backgroundImage = "url(/assets/images/paskcoffee.jfif)";
 });
 imageLeft.addEventListener("mouseout", function () {
@@ -13,4 +16,12 @@ imageRight.addEventListener("mouseover", function () {
 });
 imageRight.addEventListener("mouseout", function () {
   imageRight.style.backgroundImage = "url(/assets/images/coffee.jfif)";
+}); */
+
+formButton.addEventListener("click", function () {
+  formContent.style.display = "block";
+});
+
+cancelButton.addEventListener("click", function () {
+  formContent.style.display = "none";
 });
