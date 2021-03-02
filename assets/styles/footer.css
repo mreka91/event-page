@@ -18,11 +18,11 @@ footer a {
   line-height: 23px;
 }
 
-footer a:hover {
+.underline:hover {
   color: var(--brown);
 }
 
-footer a::before {
+.underline::before {
   content: "";
   position: absolute;
   width: 100%;
@@ -35,12 +35,12 @@ footer a::before {
   transition: all 0.3s ease-in-out 0s;
 }
 
-footer a:hover::before {
+.underline:hover::before {
   visibility: visible;
   transform: scaleX(1);
 }
 
-/* .fa-instagram {
-    font-size: 36px;
-    color: var(--brown);
-  }  */
+.fa-instagram {
+  font-size: 36px;
+  color: var(--brown);
+}

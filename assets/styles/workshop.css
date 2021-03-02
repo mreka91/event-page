@@ -6,6 +6,7 @@
   text-align: center;
   padding: 25px;
   margin-top: 150px;
+  margin-bottom: 112px;
 }
 
 .ws-banner h2 {
@@ -30,14 +31,14 @@
   max-width: 559px;
 }
 
-.ws-details h2 {
+.ws-details h3 {
   font-family: var(--font-spartan-semi);
   color: var(--brown);
   font-size: 26px;
   padding: 25px 5px 25px 25px;
 }
 
-.ws-details h2 span {
+.ws-details h3 span {
   color: var(--yellow);
   font-family: var(--font-spartan-bold);
   font-size: 26px;
