@@ -20,10 +20,12 @@ imageRight.addEventListener("mouseout", function () {
 
 formButton.addEventListener("click", function () {
   formContent.style.display = "block";
+  typewriter.stop();
 });
 
 cancelButton.addEventListener("click", function () {
   formContent.style.display = "none";
+  typewriter.start();
 });
 
 //var urlParams = new URLSearchParams(window.location.search);
@@ -44,3 +46,17 @@ console.log(urlParams.get("city")); */
 
 //const user = document.querySelector(".name");
 //user.innerHTML = name;
+
+const type = document.querySelector(".type");
+
+var typewriter = new Typewriter(type, {
+  loop: true,
+  delay: 75,
+});
+
+typewriter
+  .pauseFor(500)
+  .typeString("Click to")
+  .pauseFor(1500)
+  .deleteChars(8)
+  .start();

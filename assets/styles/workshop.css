@@ -79,6 +79,7 @@
   border-radius: 50%;
   width: 100%;
   height: 100%;
+  padding-bottom: 40px;
 }
 
 .form-button:hover {
@@ -87,7 +88,9 @@
   animation-duration: 400ms;
   box-shadow: 10px 10px 15px rgba(221, 218, 218, 0.521);
 }
-
+.form-button span {
+  font-size: 18px;
+}
 .left-pic {
   background-image: url("/assets/images/coffecircle.jpg");
   height: 100vh;
