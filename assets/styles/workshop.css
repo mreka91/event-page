@@ -69,6 +69,12 @@
   align-items: center;
 }
 
+.circle:hover {
+  animation-name: move;
+  animation-duration: 400ms;
+  box-shadow: 10px 10px 15px grey;
+}
+
 .form-button {
   font-family: var(--font-poppins-medium);
   color: white;

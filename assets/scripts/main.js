@@ -25,3 +25,22 @@ formButton.addEventListener("click", function () {
 cancelButton.addEventListener("click", function () {
   formContent.style.display = "none";
 });
+
+//var urlParams = new URLSearchParams(window.location.search);
+
+/* if ("URLSearchParams" in window) {
+  var urlParams = new URLSearchParams(window.location.search);
+  var nameFromUrl = urlParams.get("name");
+  var cityFromUrl = urlParams.get("city");
+  urlParams.set("name", nameFromUrl);
+  urlParams.set("city", cityFromUrl);
+  var newRelativePathQuery =
+    window.location.pathname + "?" + urlParams.toString();
+  history.pushState(null, "", newRelativePathQuery);
+}
+
+console.log(urlParams.get("name"));
+console.log(urlParams.get("city")); */
+
+//const user = document.querySelector(".name");
+//user.innerHTML = name;
