@@ -52,11 +52,11 @@
     background-size: 100% 100%;
   }
   footer {
-    justify-content: center;
     flex-direction: row;
   }
-  footer a {
-    margin: 80px;
+
+  .social {
+    padding-left: 50px;
   }
 }
 
