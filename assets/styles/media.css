@@ -1,4 +1,4 @@
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 1025px) {
   .hero {
     flex-wrap: nowrap;
     flex-direction: row-reverse;
@@ -48,7 +48,9 @@
     float: left;
     width: 50%;
   }
-
+  .right-pic {
+    background-size: 100% 100%;
+  }
   footer {
     justify-content: center;
     flex-direction: row;

@@ -61,18 +61,10 @@
 .circle {
   width: 194px;
   height: 194px;
-  background-color: var(--yellow);
-  border-radius: 50%;
   margin: auto;
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.circle:hover {
-  animation-name: move;
-  animation-duration: 400ms;
-  box-shadow: 10px 10px 15px grey;
 }
 
 .form-button {
@@ -82,6 +74,18 @@
   font-size: 48px;
   background: none;
   border: none;
+  cursor: pointer;
+  background-color: var(--yellow);
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+}
+
+.form-button:hover {
+  border: none;
+  animation-name: move;
+  animation-duration: 400ms;
+  box-shadow: 10px 10px 15px rgba(221, 218, 218, 0.521);
 }
 
 .left-pic {
@@ -163,9 +167,10 @@ label {
 
 button:hover {
   opacity: 1;
+  border: 1px solid var(--brown);
 }
 
-input[type="radio"] {
+/* input[type="radio"] {
   position: absolute;
   visibility: hidden;
   display: none;
@@ -182,4 +187,4 @@ input[type="radio"]:checked + label {
   color: black;
   background: var(--yellow);
   border-radius: 50%;
-}
+} */
