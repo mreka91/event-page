@@ -9,7 +9,7 @@ Our mission is to create an event invitation in both physical and digital form f
 
 We decided to create an event for :coffee: Svanfeldts Coffee :coffee: who introduces their newest Eastern coffee bland.
 
-[Preview](https://svanfeldts-event.netlify.app/)
+[Preview](https://event-page-three.vercel.app/)
 
 <details><summary><strong>Project requirements:</strong></b></summary>
 
