@@ -29,7 +29,7 @@
   </head>
   <body>
     <!-- logo -->
-    <div class="beans-logo">
+    <div class="beans-logo fade-in">
       <img
         src="/assets/images/beanslogo.png"
         alt="Beans and Brains logo"
@@ -37,7 +37,7 @@
       />
     </div>
     <!-- hero -->
-    <div class="hero">
+    <div class="hero fade-in">
       <div class="title">
         <h1>Coffe & workshop</h1>
         <h4>by Beans & Brains Coffee</h4>
@@ -49,7 +49,6 @@
     <!-- workshop banner -->
     <div class="ws-banner">
       <h2>Easter Roast</h2>
-      <h3 class="name"></h3>
       <h3>Workshop</h3>
       <p>3 april</p>
       <p>11:00</p>
@@ -58,8 +57,8 @@
     <div class="workshop">
       <div class="ws-details">
         <h3>
-          Välkommen till vår
-          <pre><span>Easter Roast</span> workshop!</pre>
+          Välkommen <span class="guest"></span> till vår
+          <span class="yellow">Easter Roast</span> workshop!
         </h3>
 
         <p class="ws-details-bold">
@@ -99,6 +98,7 @@
               type="text"
               placeholder="Test Testersson"
               name="name"
+              class="name-in-form"
               required
             />
 

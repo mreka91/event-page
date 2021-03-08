@@ -3,6 +3,9 @@ const imageRight = document.querySelector(".right-pic");
 const formButton = document.querySelector(".form-button");
 const cancelButton = document.querySelector(".cancel");
 const formContent = document.querySelector(".form-content");
+let urlParams = new URLSearchParams(window.location.search);
+let name;
+const nameInForm = document.querySelector(".name-in-form");
 
 /* imageLeft.addEventListener("mouseover", function () {
   imageLeft.style.backgroundImage = "url(/assets/images/paskcoffee.jfif)";
@@ -28,7 +31,15 @@ cancelButton.addEventListener("click", function () {
   typewriter.start();
 });
 
-//var urlParams = new URLSearchParams(window.location.search);
+if (urlParams.has("name")) {
+  name = urlParams.get("name");
+} else {
+  name = "";
+}
+
+let namePerson = document.querySelector(".guest");
+namePerson.textContent = name;
+nameInForm.value = name;
 
 /* if ("URLSearchParams" in window) {
   var urlParams = new URLSearchParams(window.location.search);
