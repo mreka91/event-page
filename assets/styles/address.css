@@ -23,3 +23,88 @@
   line-height: 21px;
   color: white;
 }
+
+.coffee-all {
+  margin-top: 45px;
+  margin-bottom: 25px;
+}
+
+.coffee-cup {
+  background: #fff;
+  width: 27px;
+  height: 20px;
+  border-radius: 0 0 13px 13px;
+  position: relative;
+}
+.coffee-cup:after {
+  content: "";
+  border: 2px solid #fff;
+  position: absolute;
+  top: 2px;
+  right: -8px;
+  width: 10px;
+  height: 8px;
+  border-radius: 0 6px 10px 0;
+  transform: rotate(-8deg) skewY(-3deg);
+}
+.coffee-cup:before {
+  content: "";
+  width: 35px;
+  height: 0;
+  position: absolute;
+  bottom: -6px;
+  left: 50%;
+  transform: translateX(-49%);
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-top: 4px solid #fff;
+}
+.coffee-cup-smoke {
+  position: absolute;
+  top: -14px;
+  left: 49%;
+  margin-left: 2px;
+  animation: smokeAnim 1.8s infinite;
+  zoom: 1.5;
+}
+.coffee-cup-smoke:after {
+  content: "";
+  width: 6px;
+  height: 7px;
+  border-left: 2px solid #fff;
+  position: absolute;
+  top: -6px;
+  transform: translateX(-49%);
+  border-radius: 50%;
+}
+.coffee-cup-smoke:before {
+  content: "";
+  width: 6px;
+  height: 7px;
+  border-right: 2px solid #fff;
+  position: absolute;
+  left: -4px;
+  transform: translateX(-49%);
+  border-radius: 50%;
+}
+.coffee-cup-smoke:nth-child(2) {
+  left: 25%;
+  zoom: 1;
+}
+.coffee-cup-smoke:nth-child(3) {
+  left: 75%;
+  zoom: 1;
+}
+@keyframes smokeAnim {
+  0% {
+    top: -2px;
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    top: -20px;
+    opacity: 0;
+  }
+}
