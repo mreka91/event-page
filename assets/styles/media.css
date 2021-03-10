@@ -5,17 +5,18 @@
   }
   .title {
     align-self: center;
+    padding-top: 10px;
   }
   .title h1 {
     font-size: 72px;
   }
 
   .hero-img {
-    width: 45%;
+    width: 43%;
   }
 
   .ws-banner h2 {
-    font-size: 44px;
+    font-size: 98px;
     line-height: 125px;
   }
 
@@ -75,7 +76,7 @@
   -webkit-animation: fadeIn ease-in 3s;
   -moz-animation: fadeIn ease-in 3s;
   -o-animation: fadeIn ease-in 3s;
-  -ms-animation: fadeIn ease-in 3s;
+  -ms-animation: fadeIn ease-in-out 3s;
 }
 
 @keyframes fadeIn {

@@ -54,8 +54,8 @@ if (urlParams.has("firstname", "lastname")) {
   firstName = urlParams.get("firstname");
   lastName = urlParams.get("lastname");
 } else {
-  firstName = "";
-  lastName = "";
+  firstName = "Guest";
+  lastName = "Guestersson";
 }
 
 let namePerson = document.querySelector(".guest");
