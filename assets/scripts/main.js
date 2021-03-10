@@ -6,6 +6,24 @@ const formContent = document.querySelector(".form-content");
 let urlParams = new URLSearchParams(window.location.search);
 let name;
 const nameInForm = document.querySelector(".name-in-form");
+const elements = document.querySelectorAll(".hidden");
+const windowHeight = window.innerHeight;
+
+function checkPosition() {
+  for (var i = 0; i < elements.length; i++) {
+    var element = elements[i];
+    var positionFromTop = elements[i].getBoundingClientRect().top;
+
+    if (positionFromTop - windowHeight <= 0) {
+      element.classList.add("fade-in-pop");
+      element.classList.remove("hidden");
+    }
+  }
+}
+
+window.addEventListener("scroll", checkPosition);
+
+checkPosition();
 
 /* imageLeft.addEventListener("mouseover", function () {
   imageLeft.style.backgroundImage = "url(/assets/images/paskcoffee.jfif)";

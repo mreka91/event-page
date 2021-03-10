@@ -1,6 +1,7 @@
 /*HERO*/
 .hero {
   background-color: var(--beige);
+  height: 100vh;
   display: flex;
   flex-wrap: wrap;
   overflow: hidden;

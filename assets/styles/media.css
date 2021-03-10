@@ -11,7 +11,7 @@
   }
 
   .hero-img {
-    width: 50%;
+    width: 45%;
   }
 
   .ws-banner h2 {
@@ -71,11 +71,11 @@
 }
 
 .fade-in {
-  animation: fadeIn ease-out 3s;
-  -webkit-animation: fadeIn ease-out 3s;
-  -moz-animation: fadeIn ease-out 3s;
-  -o-animation: fadeIn ease-out 3s;
-  -ms-animation: fadeIn ease-out 3s;
+  animation: fadeIn ease-in 3s;
+  -webkit-animation: fadeIn ease-in 3s;
+  -moz-animation: fadeIn ease-in 3s;
+  -o-animation: fadeIn ease-in 3s;
+  -ms-animation: fadeIn ease-in 3s;
 }
 
 @keyframes fadeIn {
@@ -117,6 +117,64 @@
 @-ms-keyframes fadeIn {
   0% {
     opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.fade-in-pop {
+  animation: fadeInPop ease-in-out 3s;
+  -webkit-animation: fadeInPop ease-in-out 3s;
+  -moz-animation: fadeInPop ease-in-out 3s;
+  -o-animation: fadeInPop ease-in-out 3s;
+  -ms-animation: fadeInPop ease-in-out 3s;
+}
+
+@keyframes fadeInPop {
+  0% {
+    opacity: 0;
+    transform: scale(0.7, 0.7);
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadeInPop {
+  0% {
+    opacity: 0;
+    transform: scale(0.7, 0.7);
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeInPop {
+  0% {
+    opacity: 0;
+    transform: scale(0.7, 0.7);
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadeInPop {
+  0% {
+    opacity: 0;
+    transform: scale(0.7, 0.7);
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes fadeInPop {
+  0% {
+    opacity: 0;
+    transform: scale(0.7, 0.7);
   }
   100% {
     opacity: 1;
