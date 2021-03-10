@@ -4,7 +4,8 @@ const formButton = document.querySelector(".form-button");
 const cancelButton = document.querySelector(".cancel");
 const formContent = document.querySelector(".form-content");
 let urlParams = new URLSearchParams(window.location.search);
-let name;
+let firstName;
+let lastName;
 const nameInForm = document.querySelector(".name-in-form");
 const elements = document.querySelectorAll(".hidden");
 const windowHeight = window.innerHeight;
@@ -49,15 +50,17 @@ cancelButton.addEventListener("click", function () {
   typewriter.start();
 });
 
-if (urlParams.has("name")) {
-  name = urlParams.get("name");
+if (urlParams.has("firstname", "lastname")) {
+  firstName = urlParams.get("firstname");
+  lastName = urlParams.get("lastname");
 } else {
-  name = "";
+  firstName = "";
+  lastName = "";
 }
 
 let namePerson = document.querySelector(".guest");
-namePerson.textContent = name;
-nameInForm.value = name;
+namePerson.textContent = firstName;
+nameInForm.value = `${firstName} ${lastName}`;
 
 /* if ("URLSearchParams" in window) {
   var urlParams = new URLSearchParams(window.location.search);
