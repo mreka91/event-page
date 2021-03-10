@@ -95,16 +95,3 @@
   left: 75%;
   zoom: 1;
 }
-@keyframes smokeAnim {
-  0% {
-    top: -2px;
-    opacity: 0;
-  }
-  50% {
-    opacity: 1;
-  }
-  100% {
-    top: -20px;
-    opacity: 0;
-  }
-}

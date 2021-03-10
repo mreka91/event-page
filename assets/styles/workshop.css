@@ -169,7 +169,8 @@ label {
   border: none;
 }
 
-button:hover {
+.signup:hover,
+.cancel:hover {
   opacity: 1;
   border: 1px solid var(--brown);
 }
@@ -207,4 +208,12 @@ input[type="radio"]:checked + label {
 
 .hidden {
   opacity: 0;
+}
+
+.fade-in-pop {
+  animation: fadeInPop ease-in-out 3s;
+  -webkit-animation: fadeInPop ease-in-out 3s;
+  -moz-animation: fadeInPop ease-in-out 3s;
+  -o-animation: fadeInPop ease-in-out 3s;
+  -ms-animation: fadeInPop ease-in-out 3s;
 }

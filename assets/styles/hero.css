@@ -30,3 +30,11 @@
   line-height: 30.6px;
   padding: 8px;
 }
+
+.fade-in {
+  animation: fadeIn ease-in 3s;
+  -webkit-animation: fadeIn ease-in 3s;
+  -moz-animation: fadeIn ease-in 3s;
+  -o-animation: fadeIn ease-in 3s;
+  -ms-animation: fadeIn ease-in-out 3s;
+}
