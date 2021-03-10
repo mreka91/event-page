@@ -3,6 +3,11 @@
     flex-wrap: nowrap;
     flex-direction: row-reverse;
   }
+
+  .hero-img img {
+    width: 40vw;
+    height: 100vh;
+  }
   .title {
     align-self: center;
     padding-top: 10px;
