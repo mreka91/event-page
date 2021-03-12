@@ -65,3 +65,21 @@
     padding-left: 50px;
   }
 }
+
+@media only screen and (max-width: 768px) {
+  .left-pic {
+    background-image: url("/assets/images/coffecircle-700.jpg");
+  }
+  .right-pic {
+    background-image: url("/assets/images/coffee-700.png");
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .left-pic {
+    background-image: url("/assets/images/coffecircle-400.jpg");
+  }
+  .right-pic {
+    background-image: url("/assets/images/coffee-400.png");
+  }
+}
