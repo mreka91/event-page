@@ -3,12 +3,17 @@ const imageRight = document.querySelector(".right-pic");
 const formButton = document.querySelector(".form-button");
 const cancelButton = document.querySelector(".cancel");
 const formContent = document.querySelector(".form-content");
+const body = document.querySelector("body");
 let urlParams = new URLSearchParams(window.location.search);
 let firstName;
 let lastName;
 const nameInForm = document.querySelector(".name-in-form");
 const elements = document.querySelectorAll(".hidden");
 const windowHeight = window.innerHeight;
+
+window.onload = function () {
+  body.classList.remove("hide");
+};
 
 function checkPosition() {
   for (var i = 0; i < elements.length; i++) {
