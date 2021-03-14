@@ -16,9 +16,11 @@
 .bean {
   width: 120px;
   margin: 25px;
+  animation: scaled2 4s ease-in-out infinite alternate;
 }
 
 .svan {
-  width: 330px;
+  width: 300px;
   margin: 25px;
+  animation: scaled1 4s ease-in-out infinite alternate;
 }

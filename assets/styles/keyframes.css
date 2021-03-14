@@ -122,3 +122,22 @@
     opacity: 0;
   }
 }
+
+/*Logos*/
+@keyframes scaled1 {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.2);
+  }
+}
+
+@keyframes scaled2 {
+  from {
+    transform: scale(1.2);
+  }
+  to {
+    transform: scale(1);
+  }
+}
