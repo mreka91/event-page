@@ -10,10 +10,16 @@ let lastName;
 const nameInForm = document.querySelector(".name-in-form");
 const elements = document.querySelectorAll(".hidden");
 const windowHeight = window.innerHeight;
+let namePerson = document.querySelector(".guest");
+const type = document.querySelector(".type");
+
+/*Start fade in animation on window load*/
 
 window.onload = function () {
   body.classList.remove("hide");
 };
+
+/* Start pop in animation when user scrolls to the pics*/
 
 function checkPosition() {
   for (var i = 0; i < elements.length; i++) {
@@ -45,6 +51,8 @@ imageRight.addEventListener("mouseout", function () {
   imageRight.style.backgroundImage = "url(/assets/images/coffee.jfif)";
 }); */
 
+/*Show the form and stop the typewriter when RSVP is clicked*/
+
 formButton.addEventListener("click", function () {
   formContent.style.display = "block";
   typewriter.stop();
@@ -55,6 +63,7 @@ cancelButton.addEventListener("click", function () {
   typewriter.start();
 });
 
+/*Fill in the guest's name and email adress from the URL. If it's empty, use Guest Guestersson*/
 if (urlParams.has("firstname", "lastname")) {
   firstName = urlParams.get("firstname");
   lastName = urlParams.get("lastname");
@@ -63,28 +72,10 @@ if (urlParams.has("firstname", "lastname")) {
   lastName = "Guestersson";
 }
 
-let namePerson = document.querySelector(".guest");
 namePerson.textContent = firstName;
 nameInForm.value = `${firstName} ${lastName}`;
 
-/* if ("URLSearchParams" in window) {
-  var urlParams = new URLSearchParams(window.location.search);
-  var nameFromUrl = urlParams.get("name");
-  var cityFromUrl = urlParams.get("city");
-  urlParams.set("name", nameFromUrl);
-  urlParams.set("city", cityFromUrl);
-  var newRelativePathQuery =
-    window.location.pathname + "?" + urlParams.toString();
-  history.pushState(null, "", newRelativePathQuery);
-}
-
-console.log(urlParams.get("name"));
-console.log(urlParams.get("city")); */
-
-//const user = document.querySelector(".name");
-//user.innerHTML = name;
-
-const type = document.querySelector(".type");
+/*Typewriter effect*/
 
 var typewriter = new Typewriter(type, {
   loop: true,
