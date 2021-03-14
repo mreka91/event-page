@@ -46,8 +46,18 @@
       </div>
       <div class="hero-img">
         <img
-          src="/assets/images/kaffeskola.jfif"
-          alt=""
+          src="/assets/images/kaffeskola-400.png"
+          srcset="
+            /assets/images/kaffeskola-1050.png 1050w,
+            /assets/images/kaffeskola-700.png   700w,
+            /assets/images/kaffeskola-400.png   400w
+          "
+          sizes="
+          (max-width: 400px) 400px,
+          (max-width: 700px) 700px,
+          1050px
+          "
+          alt="A hand holding a cup of espresso"
           loading="lazy"
           class="hero-src"
         />
