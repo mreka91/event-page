@@ -39,8 +39,3 @@ footer a {
   visibility: visible;
   transform: scaleX(1);
 }
-
-.fa-instagram {
-  font-size: 36px;
-  color: var(--brown);
-}
