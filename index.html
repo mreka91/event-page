@@ -45,34 +45,38 @@
         <h2>by Beans &amp; Brains Coffee</h2>
       </div>
       <div class="hero-img">
-        <img
-          src="/assets/images/kaffeskola-400.png"
-          srcset="
-            /assets/images/kaffeskola-1050.png 1050w,
-            /assets/images/kaffeskola-700.png   700w,
-            /assets/images/kaffeskola-400.png   400w
-          "
-          sizes="
-          (max-width: 400px) 400px,
-          (max-width: 700px) 700px,
-          1050px
-          "
-          alt="A hand holding a cup of espresso"
-          loading="lazy"
-          class="hero-src"
-        />
+        <picture>
+          <source
+            srcset="/assets/images/kaffeskola-1050.png"
+            media="(min-width: 1000px)"
+          />
+          <source
+            srcset="/assets/images/kaffeskola-770.png"
+            media="(min-width: 700px)"
+          />
+          <source
+            srcset="/assets/images/kaffeskola-414.png"
+            media="(min-width: 400px)"
+          />
+          <img
+            src="/assets/images/kaffeskola-400.png"
+            alt="A hand holding a cup of espresso"
+            loading="lazy"
+            class="hero-src"
+          />
+        </picture>
       </div>
     </div>
 
     <!-- workshop banner -->
-    <div class="ws-banner fade-in">
+    <div class="ws-banner">
       <h2>Easter Roast</h2>
       <h3>Workshop</h3>
       <p>3 april</p>
       <p>11:00</p>
     </div>
     <!-- workshop text info -->
-    <div class="workshop fade-in">
+    <div class="workshop">
       <div class="ws-details">
         <h3>
           Välkommen <span class="guest"></span> till vår
