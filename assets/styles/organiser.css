@@ -14,13 +14,15 @@
 }
 
 .bean {
-  width: 120px;
+  width: 124px;
+  height: 135px;
   margin: 25px;
   animation: scaled2 4s ease-in-out infinite alternate;
 }
 
 .svan {
   width: 300px;
+  height: 170px;
   margin: 25px;
   animation: scaled1 4s ease-in-out infinite alternate;
 }

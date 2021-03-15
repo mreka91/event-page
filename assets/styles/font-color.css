@@ -2,48 +2,56 @@
   font-family: "Satisfy";
   src: local("Satisfy"),
     url("/assets/fonts/Satisfy-Regular.woff2") format("woff2");
+  font-display: fallback;
 }
 
 @font-face {
   font-family: "PoppinsMedium";
   src: local("PoppinsMedium"),
     url("/assets/fonts/Poppins-Medium.woff2") format("woff2");
+  font-display: fallback;
 }
 
 @font-face {
   font-family: "PoppinsRegular";
   src: local("PoppinsRegular"),
     url("/assets/fonts/Poppins-Regular.woff2") format("woff2");
+  font-display: fallback;
 }
 
 @font-face {
   font-family: "PoppinsSemiBold";
   src: local("PoppinsSemiBold"),
     url("/assets/fonts/Poppins-SemiBold.woff2") format("woff2");
+  font-display: fallback;
 }
 
 @font-face {
   font-family: "PoppinsBold";
   src: local("PoppinsBold"),
     url("/assets/fonts/Poppins-Bold.woff2") format("woff2");
+  font-display: fallback;
 }
 
 @font-face {
   font-family: "SpartanBold";
   src: local("SpartanBold"),
     url("/assets/fonts/Spartan-Bold.woff2") format("woff2");
+  font-display: fallback;
 }
 
 @font-face {
   font-family: "SpartanMediumn";
   src: local("SpartanMediumn"),
     url("/assets/fonts/Spartan-Medium.woff2") format("woff2");
+  font-display: fallback;
 }
 
 @font-face {
   font-family: "SpartanSemiBold";
   src: local("SpartanSemiBold"),
     url("/assets/fonts/Spartan-SemiBold.woff2") format("woff2");
+  font-display: fallback;
 }
 
 :root {
