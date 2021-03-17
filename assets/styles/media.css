@@ -3,12 +3,19 @@
     flex-wrap: nowrap;
     flex-direction: row-reverse;
   }
-  .hero-img img {
+  /*   .hero-img img {
     width: 40vw;
     height: 100vh;
+  } */
+
+  .hero-img {
+    min-width: 630px;
+    height: 788px;
+    margin-right: 15px;
   }
   .title {
     padding-top: 150px;
+    padding-left: 50px;
   }
   .title h1 {
     font-size: 72px;
@@ -17,10 +24,16 @@
   .hero-img {
     width: 43%;
   }
+  .ws-banner {
+    height: 480px;
+    padding: 80px;
+    margin-bottom: 80px;
+  }
 
   .ws-banner h2 {
     font-size: 98px;
     line-height: 125px;
+    margin-bottom: -30px;
   }
 
   .ws-banner h3 {

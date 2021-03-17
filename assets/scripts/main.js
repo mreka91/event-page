@@ -4,6 +4,8 @@ const formButton = document.querySelector(".form-button");
 const cancelButton = document.querySelector(".cancel");
 const formContent = document.querySelector(".form-content");
 const body = document.querySelector("body");
+const wsDate = document.querySelector(".date");
+const wsTime = document.querySelector(".time");
 let urlParams = new URLSearchParams(window.location.search);
 let firstName;
 let lastName;
@@ -70,6 +72,8 @@ if (urlParams.has("firstname", "lastname")) {
 } else {
   firstName = "Guest";
   lastName = "Guestersson";
+  wsDate.textContent = "No invite?";
+  wsTime.textContent = "No date...";
 }
 
 namePerson.textContent = firstName;

@@ -5,26 +5,26 @@
   color: white;
   text-align: center;
   padding: 25px;
-  margin-top: 150px;
-  margin-bottom: 80px;
+  margin-bottom: 50px;
 }
 
 .ws-banner h2 {
   font-family: var(--font-satisfy);
   font-size: 54px;
   font-weight: 400;
+  margin-bottom: -15px;
 }
 
 .ws-banner h3 {
   font-family: var(--font-poppins-bold);
   font-size: 36px;
   text-transform: uppercase;
+  margin-bottom: 30px;
 }
 
 .ws-banner p {
   font-family: var(--font-poppins-semi);
   font-size: 22px;
-  text-transform: uppercase;
 }
 
 .ws-details {
@@ -39,7 +39,7 @@
   font-family: var(--font-spartan-semi);
   color: var(--brown);
   font-size: 26px;
-  padding: 25px 5px 25px 25px;
+  padding: 20px;
 }
 
 .ws-details-bold {

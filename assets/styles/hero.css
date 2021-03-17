@@ -12,14 +12,14 @@
   height: 100%;
 }
 .title {
-  padding: 50px;
+  padding: 20px;
 }
 .title h1 {
   text-transform: uppercase;
   color: white;
   font-family: var(--font-poppins-semi);
   font-size: 52px;
-  line-height: 84.6px;
+  line-height: 120%;
   padding-bottom: 20px;
 }
 
