@@ -86,19 +86,19 @@
 
 @media screen and (max-width: 768px) {
   .left-pic {
-    background-image: url("/assets/images/coffecircle-700.jpg");
+    background-image: url("/assets/images/webp/coffecircle-700.webp");
   }
   .right-pic {
-    background-image: url("/assets/images/coffee-700.png");
+    background-image: url("/assets/images/webp/coffee-700.webp");
   }
 }
 
 @media screen and (max-width: 400px) {
   .left-pic {
-    background-image: url("/assets/images/coffecircle-400.jpg");
+    background-image: url("/assets/images/webp/coffecircle-400.webp");
   }
   .right-pic {
-    background-image: url("/assets/images/coffee-400.png");
+    background-image: url("/assets/images/webp/coffee-400.webp");
   }
   .title {
     padding-top: 50px;
