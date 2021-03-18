@@ -216,7 +216,7 @@
   }
 }
 
-/*Logos scale 1*/
+/*Logos scaled 1*/
 @keyframes scaled1 {
   from {
     transform: scale(1);

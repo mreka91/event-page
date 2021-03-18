@@ -10,6 +10,10 @@ body {
   width: 100%;
 }
 
+.hide {
+  opacity: 0;
+}
+
 /*LOGO*/
 
 .beans-logo {
@@ -20,13 +24,4 @@ body {
   width: 124px;
   height: 135px;
   margin: 15px;
-}
-
-.hide {
-  opacity: 0;
-}
-
-body {
-  opacity: 1;
-  transition: fade-in 300ms ease-in;
 }
