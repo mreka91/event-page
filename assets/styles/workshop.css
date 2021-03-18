@@ -33,6 +33,7 @@
 
 .ws-details p {
   color: var(--brown);
+  text-align: justify;
 }
 
 .ws-details h3 {
