@@ -7,7 +7,7 @@
 This is a school assignment in which the programs Web Developer and IP Graphical Production & Form at Yrgo are collaborating.
 Our mission is to create an event invitation in both physical and digital form for a real company.
 
-We decided to create an event for :coffee: Svanfeldts Coffee :coffee: who introduces their newest Eastern coffee bland.
+We decided to create a fictional event for :coffee: Svanfeldts Coffee :coffee: to introduce their newest Påskrost coffee.
 
 - [Preview](https://event-page-three.vercel.app/)
 - [Personified preview](https://event-page-three.vercel.app/?firstname=Sarah&lastname=Malm)
