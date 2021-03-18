@@ -17,7 +17,7 @@
 }
 .title h1 {
   text-transform: uppercase;
-  color: white;
+  color: var(--white);
   font-family: var(--font-poppins-semi);
   font-size: 52px;
   line-height: 120%;

@@ -12,7 +12,7 @@
   font-weight: 600;
   font-size: 36px;
   line-height: 54px;
-  color: white;
+  color: var(--white);
   text-transform: uppercase;
 }
 
@@ -21,7 +21,7 @@
   font-weight: 500;
   font-size: 14px;
   line-height: 21px;
-  color: white;
+  color: var(--white);
 }
 
 .coffee-all {
@@ -30,7 +30,7 @@
 }
 
 .coffee-cup {
-  background: #fff;
+  background: var(--white);
   width: 27px;
   height: 20px;
   border-radius: 0 0 13px 13px;
@@ -38,7 +38,7 @@
 }
 .coffee-cup:after {
   content: "";
-  border: 2px solid #fff;
+  border: 2px solid var(--white);
   position: absolute;
   top: 2px;
   right: -8px;
@@ -57,7 +57,7 @@
   transform: translateX(-49%);
   border-left: 4px solid transparent;
   border-right: 4px solid transparent;
-  border-top: 4px solid #fff;
+  border-top: 4px solid var(--white);
 }
 .coffee-cup-smoke {
   position: absolute;
@@ -71,7 +71,7 @@
   content: "";
   width: 6px;
   height: 7px;
-  border-left: 2px solid #fff;
+  border-left: 2px solid var(--white);
   position: absolute;
   top: -6px;
   transform: translateX(-49%);
@@ -81,7 +81,7 @@
   content: "";
   width: 6px;
   height: 7px;
-  border-right: 2px solid #fff;
+  border-right: 2px solid var(--white);
   position: absolute;
   left: -4px;
   transform: translateX(-49%);

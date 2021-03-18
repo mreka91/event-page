@@ -2,7 +2,7 @@
 
 .ws-banner {
   background-color: var(--yellow);
-  color: white;
+  color: var(--white);
   text-align: center;
   padding: 25px;
   margin-bottom: 50px;
@@ -67,7 +67,7 @@
 
 .form-button {
   font-family: var(--font-poppins-medium);
-  color: white;
+  color: var(--white);
   font-weight: 500;
   font-size: 48px;
   background: none;
