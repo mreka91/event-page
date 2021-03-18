@@ -9,8 +9,8 @@ Our mission is to create an event invitation in both physical and digital form f
 
 We decided to create an event for :coffee: Svanfeldts Coffee :coffee: who introduces their newest Eastern coffee bland.
 
-[Preview](https://event-page-three.vercel.app/)
-[Personified preview](https://event-page-three.vercel.app/?firstname=Sarah&lastname=Malm)
+- [Preview](https://event-page-three.vercel.app/)
+- [Personified preview](https://event-page-three.vercel.app/?firstname=Sarah&lastname=Malm)
 
 <details><summary><strong>Project requirements:</strong></b></summary>
 
