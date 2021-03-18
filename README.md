@@ -1,4 +1,4 @@
-# Svanfeldts Coffee event 
+# Svanfeldts Coffee event
 
 <img src="https://media.giphy.com/media/ge2ckPYYtHJX5mdgiY/giphy.gif" width="100%">
 
@@ -29,11 +29,18 @@ We decided to create a fictional event for :coffee: Svanfeldts Coffee :coffee: t
 
 ## Code Review
 
+- Everything looks very cozy and modern! (I want a coffee now ☕️).
+- I would suggest removing all code that is commented out and no longer in use.
+- Maybe add a width of `100vw` to the `hero-img` div at smaller sizes to match the style further down.
+- The `right-pic` gets distorted at semi-small sizes (probably due to `media.css:67` being set to a percent value instead of cover)
+- This might not be true for long, but serving alternative formats to webp-images for the browsers not supporting it (looking at you old-ish-safari).
+- One addition to the personified-part might be to write a function that capitalises the names from the query-parameter (or use `text-transform`), just in case!
+- Otherwise a clean, elegant and simple site that does the job nicely in my opinion ✊🏻
 
 ## Creators
+
 - [Reka Madarasz](https://github.com/mreka91) (WU)
 - [Sarah Malm](https://www.sarahmalm.com/) (IP)
-
 
 ## License
 
